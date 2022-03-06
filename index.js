@@ -2,6 +2,7 @@ const { Client, Intents, MessageEmbed } = require("./discord.js");
 const akinator = require("./discord.js-akinator");
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
 const fs = require('fs');
+const { owner, token } = require("./config.json")
 const { isMT } = require('./maintenance.json')
 client.on('ready', () => {
   console.log(`${client.user.tag} Now Is Online!`)
@@ -271,4 +272,4 @@ if(!lang) {
 }
             
 })
-client.login("OTQ3ODIxNjI2MDUxOTQ4NTg0.Yhy1rQ.cHFS4QmtQ5ha-EH58tcx7_sK-BM")
+client.login(token)
