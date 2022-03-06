@@ -7,3 +7,5 @@ This bot made with ```Editing``` a ```node_modules```
 
 # Run this bot
 - node index.js
+
+# THIS REPOSITORY IS STILL COUNTINUED. THATS MEAN. THE BOT WILL BE UPDATED IN THE NEXT DAY.
